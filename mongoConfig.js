@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import pusher from './pusherConfig.js'
 
-const url = "mongodb+srv://admin:obZDC8QOjDxNLdKX@cluster0.y4tf3.gcp.mongodb.net/whatsappclone?retryWrites=true&w=majority";
+const url = "url";
 
 mongoose.connect(url,  {
     useNewUrlParser: true,
